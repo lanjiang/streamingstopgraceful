@@ -8,3 +8,5 @@ Spark submit command:
 To shutdown the streaming app gracefully, place a file named "shutdownmarker" to HDFS /tmp folder
 
 `hdfs dfs -put shutdownmarker /tmp/shutdownmarker`
+
+For a detailed review of how to stop spark streaming gracefully, please visit [my blog] (http://blog.parseconsulting.com/2017/02/how-to-shutdown-spark-streaming-job.html)
